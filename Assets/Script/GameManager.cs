@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     public float LeveStartDelay = 2f;
     private List<Enermy> enermies;
     private bool enermyMoving;
-    public float turndelay = .0f;
+    public float turndelay = 0f;
     public static GameManager instance = null;
     private BoardManager boardscript;
     private int level = 1;
